@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="0.1"xml:lag="es">
+ <xs:element name="libros">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="libro" maxOccurs="unbounded">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="autores" maxOccurs="unbounded">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element name="autor" maxOccurs="unbounded">
+           <xs:complexType>
+            <xs:sequence>
+             <xs:element name="apellido_1" type="xs:string"/>
+             <xs:element name="apellido_2" type="xs:string"/>
+             <xs:element name="nombre" type="xs:string"/>
+            </xs:sequence>
+           </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+       <xs:element name="Título" type="xs:string"/>
+       <xs:element name="ISBN" type="xs:string"/>
+       <xs:element name="editorial" type="xs:string"/>
+       <xs:element name="fecha_de_publicación" type="xs:string"/>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema

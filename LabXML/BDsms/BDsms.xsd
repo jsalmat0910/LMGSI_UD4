@@ -4,7 +4,7 @@
  <xs:element name="BDsms">
   <xs:complexType>
    <xs:sequence>
-    <xs:element name="sms"maxOccurs="unbounded">
+    <xs:element name="sms" maxOccurs="unbounded">
      <xs:complexType>
       <xs:sequence>
        <xs:element name="telefono" type="xs:string"/>
