@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1">
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="0.1"xml:lag="es">
+ <xs:element name="BDsms">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="sms"maxOccurs="unbounded">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="telefono" type="xs:string"/>
+       <xs:element name="fecha" type="xs:string"/>
+       <xs:element name="hora" type="xs:string"/>
+       <xs:element name="mensaje" type="xs:string"/>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

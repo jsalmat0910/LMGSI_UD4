@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1">
-<!DOCTYPE BDsms SYSTEM "BDsms.dtd">
-<BDsms>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.gmrv.es BDsmsSchema.xsd">
   <sms>
     <telefono>955 55 66 55</telefono>
     <fecha>1/7/2011</fecha>
