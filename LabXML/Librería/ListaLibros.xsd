@@ -6,10 +6,10 @@
                 <xs:element name="libro" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="autores" maxOccurs="unbounded">
+                            <xs:element name="autores" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="autor" maxOccurs="unbounded">
+                                        <xs:element name="autor" maxOccurs="2">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="apellido_1" type="xs:string"/>
