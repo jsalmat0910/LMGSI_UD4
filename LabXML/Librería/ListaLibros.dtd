@@ -1,4 +1,5 @@
-<!ELEMENT libros (autores, título, ISBN, editorial, fecha_de_publicación)>
+<!ELEMENT listalibros (libro*)>
+<!ELEMENT libro (autores, título, ISBN, editorial, fecha_de_publicación)>
 <!ELEMENT título (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>

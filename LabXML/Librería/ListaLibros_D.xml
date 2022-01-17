@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE BDsms SYSTEM "ListaLibros.dtd">
-<libros>
-    <libro_1>
+<!DOCTYPE listalibros SYSTEM "ListaLibros.dtd">
+<listalibros>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Mola</apellido_1>
@@ -13,8 +13,8 @@
         <ISBN>9788408249849</ISBN>
         <editorial>Planeta</editorial>
         <fecha_de_publicación>04/11/2021</fecha_de_publicación>
-    </libro_1>
-    <libro_2>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Gil</apellido_1>
@@ -26,8 +26,8 @@
         <ISBN>9788491396482</ISBN>
         <editorial>HARPERCOLLINS</editorial>
         <fecha_de_publicación>01/09/2021</fecha_de_publicación>
-    </libro_2>
-    <libro_3>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Hawkins</apellido_1>
@@ -39,8 +39,8 @@
         <ISBN>9788408246367</ISBN>
         <editorial>Planeta</editorial>
         <fecha_de_publicación>01/09/2021</fecha_de_publicación>
-    </libro_3>
-    <libro_4>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Chaparro</apellido_1>
@@ -52,8 +52,8 @@
         <ISBN>9788467048964</ISBN>
         <editorial>S.L.U. ESPASA LIBROS</editorial>
         <fecha_de_publicación>21/03/2017</fecha_de_publicación>
-    </libro_4>
-    <libro_5>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Pérez</apellido_1>
@@ -65,8 +65,8 @@
         <ISBN>9788420460499</ISBN>
         <editorial>Alfaguara</editorial>
         <fecha_de_publicación>21-09-2021</fecha_de_publicación>
-    </libro_5>
-    <libro_6>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Mola</apellido_1>
@@ -78,8 +78,8 @@
         <ISBN>9788408249849</ISBN>
         <editorial>Planeta</editorial>
         <fecha_de_publicación>04/11/2021</fecha_de_publicación>
-    </libro_6>
-    <libro_7>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Gil</apellido_1>
@@ -91,8 +91,8 @@
         <ISBN>9788491396482</ISBN>
         <editorial>HARPERCOLLINS</editorial>
         <fecha_de_publicación>01/09/2021</fecha_de_publicación>
-    </libro_7>
-    <libro_8>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Hawkins</apellido_1>
@@ -104,8 +104,8 @@
         <ISBN>9788408246367</ISBN>
         <editorial>Planeta</editorial>
         <fecha_de_publicación>01/09/2021</fecha_de_publicación>
-    </libro_8>
-    <libro_9>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Chaparro</apellido_1>
@@ -117,8 +117,8 @@
         <ISBN>9788467048964</ISBN>
         <editorial>S.L.U. ESPASA LIBROS</editorial>
         <fecha_de_publicación>21/03/2017</fecha_de_publicación>
-    </libro_9>
-    <libro_10>
+    </libro>
+    <libro>
         <autores>
             <autor>
                 <apellido_1>Pérez</apellido_1>
@@ -130,5 +130,5 @@
         <ISBN>9788420460499</ISBN>
         <editorial>Alfaguara</editorial>
         <fecha_de_publicación>21-09-2021</fecha_de_publicación>
-    </libro_10>
-</libros>
+    </libro>
+</listalibros>
