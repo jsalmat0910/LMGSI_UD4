@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Concesionario.xsd">
-
+  <coche>
+    <codigo_coche> SI12 </codigo_coche>
+    <marca> Seat </marca>
+    <modelo> Ibiza </modelo>
+    <matricula> 4380 LPZ </matricula>
+    <caracteristicas>
+        <potencia> (Caballos)> 110 cv </potencia>
+        <plazas> 5 </plazas>
+        <numero_de_puertas> 5 </numero_de_puertas>
+    </caracteristicas>
+  </coche>
+  <coche>
+    <codigo_coche> SL5 </codigo_coche>
+    <marca> Seat </marca>
+    <modelo> León </modelo>
+    <matricula> 0478 LFR </matricula>
+    <caracteristicas>
+        <potencia> (Caballos)> 150 cv </potencia>
+        <plazas> 5 </plazas>
+        <numero_de_puertas> 3 </numero_de_puertas>
+    </caracteristicas>
+  </coche>
+  <coche>
+    <codigo_coche> PG22 </codigo_coche>
+    <marca> Peugeot </marca>
+    <modelo> 206 </modelo>
+    <matricula> 4003 CTD </matricula>
+    <caracteristicas>
+        <potencia> (Caballos)> 132 cv </potencia>
+        <plazas> 5 </plazas>
+        <numero_de_puertas> 3 </numero_de_puertas>
+    </caracteristicas>
+  </coche>
+  <coche>
+    <codigo_coche> RK16 </codigo_coche>
+    <marca> Renault </marca>
+    <modelo> Kangoo </modelo>
+    <matricula> 0209 FKF </matricula>
+    <caracteristicas>
+        <potencia> (Caballos)> 80 cv </potencia>
+        <plazas> 5 </plazas>
+        <numero_de_puertas> 5 </numero_de_puertas>
+    </caracteristicas>
+  </coche>
+  <coche>
+    <codigo_coche> OA25 </codigo_coche>
+    <marca> Opel </marca>
+    <modelo> Astra </modelo>
+    <matricula> 1889 FRM </matricula>
+    <caracteristicas>
+        <potencia> (Caballos)> 100 cv </potencia>
+        <plazas> 5 </plazas>
+        <numero_de_puertas> 5 </numero_de_puertas>
+    </caracteristicas>
+  </coche>
 </concesionario>

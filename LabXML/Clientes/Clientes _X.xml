@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Clientes.xsd">
+    <sede>
+        <direccion> </direccion>
+        <empleado> </empleado>
+        <fecha_alta> </fecha_alta>
+        <desc> </desc>
+        
+    </sede>
+</clientes>

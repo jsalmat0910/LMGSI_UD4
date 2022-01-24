@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE clientes SYSTEM "Cliente.dtd">
+<clientes>
+    <sede>
+        <direccion> </direccion>
+        <empleado> </empleado>
+        <fecha_alta> </fecha_alta>
+        <desc> </desc>
+        
+    </sede>
+</clientes>
