@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE clientes SYSTEM "Cliente.dtd">
+<!DOCTYPE clientes SYSTEM "Clientes.dtd">
 <clientes>
-    <sede>
-        <direccion> </direccion>
-        <empleado> </empleado>
-        <fecha_alta> </fecha_alta>
-        <desc> </desc>
-        
+    <sede cod_sede="1">
+        <direccion> Las piedras </direccion>
+        <empleado> Pedro Perez </empleado>
+        <fecha_alta> 10/10/2019 </fecha_alta>
+        <descripcion> solvente </descripcion>
+        <cliente cod_cliente="1">
+            <viviendas num_viviendas="1">
+                <costo> 14.000 </costo>
+                <resumen> Vivienda pequeña y acojible </resumen>
+                <plazo_hacienda> 1/1/2021 </plazo_hacienda>
+            </viviendas>
+            <viviendas num_viviendas="2">
+                <costo> 50.000 </costo>
+                <resumen> Vivienda de tamaño mediano y acojible </resumen>
+                <plazo_hacienda> 10/4/2021 </plazo_hacienda>
+            </viviendas>
+        </cliente>
+    </sede>
+    <sede cod_sede="2">
+        <direccion> Las parras 2 </direccion>
+        <empleado> Jose Alberto Ruiz </empleado>
+        <fecha_alta> 28/8/2018 </fecha_alta>
+        <descripcion> insolvente </descripcion>
+        <cliente cod_cliente="2">
+            <viviendas num_viviendas="1">
+                <costo> 150.000 </costo>
+                <resumen> Chale con vistas al mar </resumen>
+                <plazo_hacienda> 20/5/2019 </plazo_hacienda>
+            </viviendas>
+        </cliente>
     </sede>
 </clientes>
