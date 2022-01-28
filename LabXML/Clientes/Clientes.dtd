@@ -1,5 +1,5 @@
 <!ELEMENT clientes (sede*)>
-<!ELEMENT sede (direccion, empleado, fecha_alta, descripcion, cliente)>
+<!ELEMENT sede (direccion, empleado, fecha, descripcion, codigo)>
     <!ATTLIST sede cod_sede CDATA "1">
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT empleado (#PCDATA)>

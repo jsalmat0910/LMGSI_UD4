@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Clientes.xsd">
-<sede cod_sede="1">
-    <direccion> Las piedras </direccion>
-    <empleado> Pedro Perez </empleado>
-    <fecha_alta> 10/10/2019 </fecha_alta>
-    <descripcion> solvente </descripcion>
-    <cliente cod_cliente="1">
-        <viviendas num_viviendas="1">
-            <costo> 14.000 </costo>
-            <resumen> Vivienda pequeña y acojible </resumen>
-            <plazo_hacienda> 1/1/2021 </plazo_hacienda>
-        </viviendas>
-        <viviendas num_viviendas="2">
-            <costo> 50.000 </costo>
-            <resumen> Vivienda de tamaño mediano y acojible </resumen>
-            <plazo_hacienda> 10/4/2021 </plazo_hacienda>
-        </viviendas>
-    </cliente>
-</sede>
-<sede cod_sede="2">
-    <direccion> Las parras 2 </direccion>
-    <empleado> Jose Alberto Ruiz </empleado>
-    <fecha_alta> 28/8/2018 </fecha_alta>
-    <descripcion> insolvente </descripcion>
-    <cliente cod_cliente="2">
-        <viviendas num_viviendas="1">
-            <costo> 150.000 </costo>
-            <resumen> Chale con vistas al mar </resumen>
-            <plazo_hacienda> 20/5/2019 </plazo_hacienda>
-        </viviendas>
-    </cliente>
-</sede>
+    <sede codigo="A0000001">
+        <direccion>C/Castilla, 1</direccion>
+        <direccion>C/Castilla, 1</direccion>
+        <empleado>Jose Luis Comesaña</empleado>
+        <fecha>2012-01-12</fecha>
+        <descripcion>Urgente</descripcion>
+        <cliente codigo="AAA-111">
+            <numero>12</numero>
+            <coste>100</coste>
+            <resumen>Producto muy frágil</resumen>
+            <plazo>10</plazo>
+        </cliente>
+        <cliente codigo="AAA-112">
+            <numero>10</numero>
+            <coste>10</coste>
+            <resumen>No aplicar más de cinco paquetes</resumen>
+            <plazo>8</plazo>
+        </cliente>
+    </sede>
+    <sede codigo="B0000002">
+        <direccion>Avda. Gran Vía s/n</direccion>
+        <empleado>Antonio Resines</empleado>
+        <fecha>2010-02-12</fecha>
+        <descripcion>Urgente</descripcion>
+        <cliente codigo="BBB-111">
+            <numero>9</numero>
+            <coste>50</coste>
+            <resumen>Producto largo</resumen>
+            <plazo>5</plazo>
+        </cliente>
+        <cliente codigo="BBB-112">
+            <numero>25</numero>
+            <coste>250</coste>
+            <resumen>Producto muy pesado y frágil</resumen>
+            <plazo>14</plazo>
+        </cliente>
+    </sede>
 </clientes>
