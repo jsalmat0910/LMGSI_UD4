@@ -1,0 +1,7 @@
+<!ELEMENT practicas (alumno*)>
+<!ELEMENT alumno (nif, resultado, observaciones, IP)>
+    <!ATTLIST alumno codigo CDATA #REQUERID>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT IP (#PCDATA)>
