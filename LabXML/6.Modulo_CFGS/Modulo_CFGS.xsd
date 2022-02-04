@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation xml:lang="ES-es">
+        Esquema para las practicas de alumnos de DAW.
+        <fecha> 31/1/2022 </fecha>
+        <autor> Juan Ramón Salguero Mateos </autor>
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="modulo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="curso">
+                    <xs:simpleType>
+                        <xs:attribute name="codigo" type="xs:integer" use="required">
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
