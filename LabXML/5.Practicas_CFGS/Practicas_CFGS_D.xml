@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE practica SYSTEM "Practicas_CFGS.dtd">
-<practicas>
+<practica>
     <alumno codigo="1">
         <nif>35481065F</nif>
         <resultado>Apto</resultado>
@@ -31,4 +31,4 @@
         <observaciones>Campo no obligatorio</observaciones>
         <IP></IP>
     </alumno>
-</practicas>
+</practica>

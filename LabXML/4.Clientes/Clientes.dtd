@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT clientes (sede*)>
-<!ELEMENT sede (direccion, empleado, fecha, descripcion?, cliente+)>
+<!ELEMENT clientes (sede+)>
+<!ELEMENT sede (direccion+, empleado, fecha, descripcion?, cliente+)>
     <!ATTLIST sede codigo CDATA #REQUIRED>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT empleado (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT cliente (numero, coste, resumen, plazo)>
-    <!ATTLIST cliente codigo CDATA >
+    <!ATTLIST cliente codigo CDATA #REQUIRED>
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT coste (#PCDATA)>
 <!ELEMENT resumen (#PCDATA)>
