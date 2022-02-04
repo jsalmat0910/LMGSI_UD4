@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <modulo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Modulo_CFGS.xsd">
-    <curso codigo="1">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Lenguaje de Marcas</titulo>
-                    <descripcion>Se utiliza HTML, XML, C++,...</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
-    <curso codigo="2">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Entorno de Desarrollo</titulo>
-                    <descripcion>Se aprendera a realizar proyectos de diferentes formas.</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
-    <curso codigo="3">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Programación</titulo>
-                    <descripcion>Se estudia la programación por java, python, por bloques ,...</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
+    <nombre></nombre>
+     <contenidos>
+         <bloque>
+            <titulo>Lenguaje de Marcas</titulo>
+            <descripcion>Se utiliza HTML, XML, C++,...</descricion>
+        </bloque>
+        <bloque>
+            <titulo></titulo>
+            <descripcion></descripcion>
+        </bloque>
+        
+    </contenidos>
+
 </modulo>

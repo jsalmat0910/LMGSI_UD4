@@ -12,9 +12,9 @@
             <xs:sequence>
                 <xs:element name="alumno">
                     <xs:complexType>
-                        <xs:attribute name="codigo">
-                        </xs:attribute>
+                        <xs:attribute name="codigo"/>
                     </xs:complexType>
+                    
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
