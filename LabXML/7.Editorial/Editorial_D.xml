@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE clientes SYSTEM "Editorial.dtd">
-<ediciones>
+<!DOCTYPE edicion SYSTEM "Editorial.dtd">
+<edicion>
     <informe>
-        <dscripcion></dscripcion>
-        <fecha>
-            <region></region>
-            <trimestre></trimestre>
-            <librosVendidos></librosVendidos>
-        </fecha>
+        <descripcion>Informe de ventas para las regiones Norte, Centro, Sur</descripcion>
+        <fecha>2009-12-30</fecha>
+        <region codigo="norte">
+            <trimestre codigo="1">
+                <librosVendidos>24000</librosVendidos>
+            </trimestre>
+            <trimestre codigo="2">
+                <librosVendidos>38600</librosVendidos>
+            </trimestre>
+            <trimestre codigo="3">
+                <librosVendidos>NO INFO</librosVendidos>
+            </trimestre>
+            <trimestre codigo="4">
+                <librosVendidos>NO INFO</librosVendidos>
+            </trimestre>
+        </region>
+        <region codigo="centro">
+            <trimestre codigo="1">
+                <librosVendidos>NO INFO</librosVendidos>
+            </trimestre>
+            <trimestre codigo="2">
+                <librosVendidos>16080</librosVendidos>
+            </trimestre>
+            <trimestre codigo="3">
+                <librosVendidos>25000</librosVendidos>
+            </trimestre>
+            <trimestre codigo="4">
+                <librosVendidos>29000</librosVendidos>
+            </trimestre>
+        </region>
+        <region codigo="sur">
+            <trimestre codigo="1">
+                <librosVendidos>27000</librosVendidos>
+            </trimestre>
+            <trimestre codigo="2">
+                <librosVendidos>31400</librosVendidos>
+            </trimestre>
+            <trimestre codigo="3">
+                <librosVendidos>40100</librosVendidos>
+            </trimestre>
+            <trimestre codigo="4">
+                <librosVendidos>30000</librosVendidos>
+            </trimestre>
+        </region>    
     </informe>
-</ediciones>
+</edicion>
