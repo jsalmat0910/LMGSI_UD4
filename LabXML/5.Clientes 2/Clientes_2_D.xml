@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "Clientes_2.dtd">
+<clientes>
+   <sede codigo="A0000001">
+        <direccion>C/Castilla, 1</direccion>
+        <direccion>C/Castilla, 1</direccion>
+        <empleado>José luis Comesaña</empleado>
+        <fecha>2012-02-10</fecha>
+        <descripcion>Urgente</descripcion>
+        <cliente codigo="AAA-111">
+            <numero>12</numero>
+            <vivienda ID="001">
+                <coste>100</coste>
+                <resumen>Producto muy frágil</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+             <vivienda ID="002">
+                <coste>130</coste>
+                <resumen>Producto nada frágil</resumen>
+                <plazo>17</plazo>
+            </vivienda>
+        </cliente>
+        <cliente codigo="AAA-112">
+            <numero>10</numero>
+            <vivienda ID="001">
+                <coste>100</coste>
+                <resumen>Producto muy frágil</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+             <vivienda ID="002">
+                <coste>130</coste>
+                <resumen>Producto nada frágil</resumen>
+                <plazo>17</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="B0000002">
+        <direccion>Avda. Gran Vía s/n</direccion>
+        <empleado>Antonio Resines</empleado>
+        <fecha>52012-10-02</fecha>
+        <cliente codigo="ABC-001">
+            <numero>5</numero>
+            <vivienda ID="001">
+                <coste>100</coste>
+                <resumen>Producto muy frágil</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+             <vivienda ID="002">
+                <coste>130</coste>
+                <resumen>Producto nada frágil</resumen>
+                <plazo>17</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>

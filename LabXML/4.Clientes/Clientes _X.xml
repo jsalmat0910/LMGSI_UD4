@@ -9,16 +9,9 @@ xsi:noNamespaceSchemaLocation="Clientes.xsd">
         <descripcion>Urgente</descripcion>
         <cliente codigo="AAA-111">
             <numero>12</numero>
-            <vivienda ID="001">
-                <coste>100</coste>
-                <resumen>Producto muy frágil</resumen>
-                <plazo>10</plazo>
-            </vivienda>
-            <vivienda ID="002">
-                <coste>130</coste>
-                <resumen>Producto muy frágil</resumen>
-                <plazo>15</plazo>
-            </vivienda>
+            <coste>100</coste>
+            <resumen>Producto muy frágil</resumen>
+            <plazo>10</plazo>
         </cliente>
         <cliente codigo="AAA-112">
             <numero>10</numero>

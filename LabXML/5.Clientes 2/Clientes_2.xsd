@@ -3,7 +3,7 @@
     <xsd:annotation>
         <xsd:documentation xml:lang="Es-es">
             Esquema para el alta de clientes en sede central
-            <fecha>2022/1/28</fecha>
+            <fecha>2022/2/07</fecha>
             <autor>Juan Ramón Salguero Mateos</autor>
         </xsd:documentation>
     </xsd:annotation>
@@ -28,6 +28,7 @@
             <xsd:pattern value="[A-Za-z]([A-Za-z0-9]){7}" />
         </xsd:restriction>
     </xsd:simpleType>
+
     <xsd:complexType name="ClienteDatos">
         <xsd:sequence>
             <xsd:element name="numero">
@@ -37,6 +38,18 @@
                     </xsd:restriction>
                 </xsd:simpleType>
             </xsd:element>
+            <xsd:element name="vivienda" type="ViviendaDatos" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="codigo" type="codigoCliente" use="required" />
+    </xsd:complexType>
+    <xsd:simpleType name="codigoCliente">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{3}-[0-9]{3}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="ViviendaDatos">
+        <xsd:sequence>
             <xsd:element name="coste">
                 <xsd:simpleType>
                     <xsd:restriction base="xsd:decimal">
@@ -52,12 +65,11 @@
                     </xsd:restriction>
                 </xsd:simpleType>
             </xsd:element>
-        </xsd:sequence>
-        <xsd:attribute name="codigo" type="codigoCliente" use="required" />
-    </xsd:complexType>
-    <xsd:simpleType name="codigoCliente">
+        </xsd:sequence>    
+        <xsd:attribute name="ID" type="codigoVivienda" use="required" />    </xsd:complexType>    
+    <xsd:simpleType name="codigoVivienda">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[A-Z]{3}-[0-9]{3}" />
+            <xsd:pattern value="[A-Za-z0-9]{3}" />
         </xsd:restriction>
     </xsd:simpleType>
 </xsd:schema>

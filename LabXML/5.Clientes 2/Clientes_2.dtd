@@ -1,0 +1,16 @@
+
+<!ELEMENT clientes (sede)*>
+<!ELEMENT sede (direccion|empleado|fecha|descripcion|cliente)*>
+<!ATTLIST sede codigo CDATA #IMPLIED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cliente (numero|vivienda)*>
+<!ATTLIST cliente codigo CDATA #IMPLIED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT vivienda (coste|resumen|plazo)*>
+<!ATTLIST vivienda ID CDATA #IMPLIED >
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

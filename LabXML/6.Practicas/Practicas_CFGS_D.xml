@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<practicas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="Practicas_CFGS.xsd">
+<!DOCTYPE practica SYSTEM "Practicas_CFGS.dtd">
+<practica>
     <alumno codigo="1">
         <nif>35481065F</nif>
         <resultado>Apto</resultado>
         <observaciones>Campo no obligatorio</observaciones>
-        <IP></IP>
+        <IP>172.168.1.1</IP>
     </alumno>
     <alumno codigo="2">
         <nif>45869574X</nif>
         <resultado>Apto</resultado>
         <observaciones>Campo no obligatorio</observaciones>
-        <IP></IP>
+        <MAC>56:FE:45:CA:45:12</MAC>
     </alumno>
     <alumno codigo="3">
         <nif>12657891S</nif>
         <resultado>Apto</resultado>
         <observaciones>Campo no obligatorio</observaciones>
-        <IP></IP>
+        <IP>125.106.3.1</IP>
     </alumno>
     <alumno codigo="4">
         <nif>26523145F</nif>
         <resultado>Apto</resultado>
         <observaciones>Campo no obligatorio</observaciones>
-        <IP></IP>
+        <MAC>25:FE:07:CA:05:50</MAC>
     </alumno>
-    <alumno codigo="5">
-        <nif>32132545X</nif>
-        <resultado>No apto</resultado>
-        <observaciones>Campo no obligatorio</observaciones>
-        <IP></IP>
-    </alumno>
-</practicas>
+</practica>

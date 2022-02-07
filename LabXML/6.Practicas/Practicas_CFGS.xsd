@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation xml:lang="Es-es">
+            Esquema para el alta de practicas en sede central
+            <fecha>2022/2/07</fecha>
+            <autor>Juan Ramón Salguero Mateos</autor>
+    </xs:documentation>
+    </xs:annotation>
+	<xs:element name="practicas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="alumno" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nif" type="tipoNIF" />
+							<xs:element name="resultado" type="tipoResultado" />
+							<xs:element name="observaciones" type="tipoObserv" minOccurs="0" />
+							<xs:choice>
+								<xs:element name="ip" type="xs:string" />
+								<xs:element name="mac" type="xs:string" />
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="tipoObserv" mixed="true">
+		<xs:sequence>
+			<xs:element name="anhos" type="xs:positiveInteger" />
+			<xs:element name="poblacion" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="tipoNIF">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{8}[a-zA-Z]" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="tipoResultado">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Apto" />
+			<xs:enumeration value="No Apto" />
+		</xs:restriction>
+    </xs:simpleType>
+	
+	
+	
+</xs:schema>
