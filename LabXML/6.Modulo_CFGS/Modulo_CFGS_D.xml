@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE modulo SYSTEM "Modulo_CFGS.dtd">
 <modulo>
-    <curso codigo="1">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Lenguaje de Marcas</titulo>
-                    <descripcion>Se utiliza HTML, XML, C++,...</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
-    <curso codigo="2">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Entorno de Desarrollo</titulo>
-                    <descripcion>Se aprendera a realizar proyectos de diferentes formas.</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
-    <curso codigo="3">
-        <nombre>
-            <contenidos>
-                <bloque>
-                    <titulo>Programación</titulo>
-                    <descripcion>Se estudia la programación por java, python, por bloques ,...</descricion>
-                </bloque>
-            </contenidos>
-        </nombre>
-    </curso>
+    <nombre>1º Auto</nombre>
+    <contenidos>
+        <bloque>
+           <titulo>Motores</titulo>
+           <descripcion>Se estudia todos los elementos de los motores y como funcionan.</descripcion>
+       </bloque>
+       <bloque>
+           <titulo>Sistemas de frenos y trenes rodantes</titulo>
+           <descripcion>Se estudian todos los elementos y tipos de frenados y trenes rodantes de todos los tipos de vehículos.</descripcion>
+       </bloque>
+       <bloque>
+           <titulo>Electricidad</titulo>
+           <descripcion>Se visualizan los esquemas electricos del vehículo asignado.</descripcion>
+       </bloque>
+       <bloque>
+           <titulo>Sistemas fluidos y neumáticos</titulo>
+           <descripcion>Se ven las caractersricas de los sistemas de fuidos y los neumáticos.</descripcion>
+       </bloque>
+   </contenidos>
 </modulo>

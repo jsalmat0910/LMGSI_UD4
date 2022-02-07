@@ -1,7 +1,6 @@
-<!ELEMENT modulo (alumno*)>
-<!ELEMENT curso (nombre*)>
-    <!ATTLIST curso codigo CDATA #REQUIRED>
+<!ELEMENT modulo (nombre*)>
 <!ELEMENT nombre (contenidos*)>
+    <!ATTLIST contenidos codigo CDATA #REQUIRED>
 <!ELEMENT contenidos (bloque*)>
 <!ELEMENT bloque (titulo, descripcion)>
 <!ELEMENT titulo (#PCDATA)>

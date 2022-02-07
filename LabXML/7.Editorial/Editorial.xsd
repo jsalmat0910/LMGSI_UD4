@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:annotation>
         <xs:documentation xml:lang="ES-es">
-        Esquema para el alta de clientes en sede central
+        Esquema para el alta de una editorial de libros en sede central
         <fecha> 28/1/2022 </fecha>
         <autor> Juan Ramón Salguero Mateos </autor>
         </xs:documentation>

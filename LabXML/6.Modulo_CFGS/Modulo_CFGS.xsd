@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:annotation>
         <xs:documentation xml:lang="ES-es">
-        Esquema para las practicas de alumnos de DAW.
+        Esquema para los modulos de los alumnos de DAW.
         <fecha> 31/1/2022 </fecha>
         <autor> Juan Ramón Salguero Mateos </autor>
         </xs:documentation>
