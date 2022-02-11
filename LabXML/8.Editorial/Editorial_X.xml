@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <edicion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Editorial.xsd">
-    <informe>
-        <descripcion>Informe de ventas para las regiones Norte, Centro, Sur</descripcion>
-        <fecha>2009-12-30</fecha>
+<cabecera>
+    <descripcion>Informe de ventas para las regiones Norte, Centro, Sur</descripcion>
+    <fecha>2009-12-30</fecha>
+    </cabecera>
+    <tabla>
         <region codigo="norte">
             <trimestre codigo="1">
                 <librosVendidos>24000</librosVendidos>
@@ -46,5 +48,5 @@ xsi:noNamespaceSchemaLocation="Editorial.xsd">
                 <librosVendidos>30000</librosVendidos>
             </trimestre>
         </region>    
-    </informe>
+    </tabla>
 </edicion>

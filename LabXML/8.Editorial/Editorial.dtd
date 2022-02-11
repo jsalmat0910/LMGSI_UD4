@@ -1,7 +1,8 @@
-<!ELEMENT edicion (informe*)>
-<!ELEMENT informe (descripcion, fecha, region+)>
+<!ELEMENT edicion (cabecera, tabla)>
+    <!ELEMENT cabecera (descripcion, fecha)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tabla (region*)>
 <!ELEMENT region (trimestre*)>
     <!ATTLIST region codigo CDATA #REQUIRED>
 <!ELEMENT trimestre (librosVendidos*)>

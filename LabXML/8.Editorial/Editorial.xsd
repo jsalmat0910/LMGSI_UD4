@@ -8,6 +8,38 @@
         </xs:documentation>
     </xs:annotation>
     <xs:element name="edicion">
-        
+        <xs:complexType>
+        <xs:sequence>
+            <xs:element name="cabecera">
+            <xs:complexType>
+                <xs:sequence>
+                <xs:element type="xs:string" name="descripcion"/>
+                <xs:element type="xs:date" name="fecha"/>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+            <xs:element name="tabla">
+            <xs:complexType>
+                <xs:sequence>
+                <xs:element name="region" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="trimestre" maxOccurs="unbounded" minOccurs="0">
+                        <xs:complexType>
+                            <xs:sequence>
+                            <xs:element type="xs:string" name="librosVendidos"/>
+                            </xs:sequence>
+                            <xs:attribute type="xs:byte" name="codigo" use="optional"/>
+                        </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute type="xs:string" name="codigo" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        </xs:complexType>
     </xs:element>
 </xs:schema>
