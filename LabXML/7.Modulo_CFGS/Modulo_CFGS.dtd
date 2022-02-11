@@ -1,6 +1,5 @@
-<!ELEMENT modulo (nombre*)>
-<!ELEMENT nombre (contenidos*)>
-    <!ATTLIST contenidos codigo CDATA #REQUIRED>
+<!ELEMENT modulo (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT contenidos (bloque*)>
 <!ELEMENT bloque (titulo, descripcion)>
 <!ELEMENT titulo (#PCDATA)>
