@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE edicion SYSTEM "Editorial.dtd">
+<edicion>
+    <cabecera>
+        <descripcion>Informe de ventas para las regiones Norte, Centro, Sur</descripcion>
+        <fecha>2009-12-30</fecha>
+    </cabecera>
+    <tabla>
+          
+    </tabla>
+</edicion>
